@@ -1,8 +1,8 @@
-====
-TODO_PROJECT_NAME
-====
+==========
+hash-utils
+==========
 
-TODO_PROJECT_SHORT_DESC
+Print or check MD5 and SHA checksums
 
 Note:
 
@@ -17,11 +17,11 @@ Contents:
    API <api>
    developer
 
-* Web site: TODO_PROJECT_WEB_SITE_URL
-* Online documentation: TODO_PROJECT_ONLINE_DOCUMENTATION_URL
-* Source code: TODO_PROJECT_GITHUB_URL
-* Issue tracker: TODO_PROJECT_ISSUE_TRACKER_URL
-* TODO_PYTHON_PACKAGE_NAME on PyPI: TODO_PROJECT_PYPI_URL
+* Web site: http://www.jdhp.org/software_en.html#hashutils
+* Online documentation: http://hashutils.readthedocs.org
+* Source code: https://github.com/jeremiedecock/python-hash-utils
+* Issue tracker: https://github.com/jeremiedecock/python-hash-utils/issues
+* hashutils on PyPI: https://pypi.python.org/pypi/hashutils
 
 Indices and tables
 ==================
