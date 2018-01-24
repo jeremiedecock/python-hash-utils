@@ -89,11 +89,11 @@ SCRIPTS = []
 # Syntax: "name_of_the_command_to_make = package.module:function".
 ENTRY_POINTS = {
   'console_scripts': [
-      'md5sum = hashutil.checksum:md5',
-      'shasum = hashutil.checksum:sha1',
-      'sha1sum = hashutil.checksum:sha1',
-      'sha256sum = hashutil.checksum:sha256',
-      'sha512sum = hashutil.checksum:sha512',
+      'md5sum = hashutils.checksum:md5',
+      'shasum = hashutils.checksum:sha1',
+      'sha1sum = hashutils.checksum:sha1',
+      'sha256sum = hashutils.checksum:sha256',
+      'sha512sum = hashutils.checksum:sha512',
   ],
 }
 
