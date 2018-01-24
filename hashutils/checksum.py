@@ -72,7 +72,7 @@ def main():
 
     # PARSE OPTIONS ###########################################################
 
-    parser = argparse.ArgumentParser(description='Print or check MD5 checksums.')
+    parser = argparse.ArgumentParser(description='Print or check MD5 or SHA checksums.')
 
     parser.add_argument("--algorithm", "-a", required=True, metavar="STRING",
             help='the algorithm to use ("md5", "sha1", "sha256" or "sha512")')
