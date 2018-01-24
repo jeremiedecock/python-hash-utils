@@ -83,6 +83,62 @@ def main():
 
     compute_hashs(args.filepaths, algorithm=args.algorithm)
 
+def md5():
+    """Main MD5 function"""
+
+    # PARSE OPTIONS ###########################################################
+
+    parser = argparse.ArgumentParser(description='Print or check MD5 checksums.')
+
+    parser.add_argument("filepaths", nargs='+', metavar="FILE",
+            help="the file(s) to check")
+
+    args = parser.parse_args()
+
+    compute_hashs(args.filepaths, algorithm="md5")
+
+def sha1():
+    """Main SHA1 function"""
+
+    # PARSE OPTIONS ###########################################################
+
+    parser = argparse.ArgumentParser(description='Print or check SHA1 checksums.')
+
+    parser.add_argument("filepaths", nargs='+', metavar="FILE",
+            help="the file(s) to check")
+
+    args = parser.parse_args()
+
+    compute_hashs(args.filepaths, algorithm="sha1")
+
+def sha256():
+    """Main SHA256 function"""
+
+    # PARSE OPTIONS ###########################################################
+
+    parser = argparse.ArgumentParser(description='Print or check SHA256 checksums.')
+
+    parser.add_argument("filepaths", nargs='+', metavar="FILE",
+            help="the file(s) to check")
+
+    args = parser.parse_args()
+
+    compute_hashs(args.filepaths, algorithm="sha256")
+
+def sha512():
+    """Main SHA512 function"""
+
+    # PARSE OPTIONS ###########################################################
+
+    parser = argparse.ArgumentParser(description='Print or check SHA512 checksums.')
+
+    parser.add_argument("filepaths", nargs='+', metavar="FILE",
+            help="the file(s) to check")
+
+    args = parser.parse_args()
+
+    compute_hashs(args.filepaths, algorithm="sha512")
+
 if __name__ == '__main__':
     main()
 
