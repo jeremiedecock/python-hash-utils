@@ -9,5 +9,10 @@
 
 ## Version 0.1
 
-- [ ] TODO
+- [ ] Add missing argparse options (-h, -c, ...)
+- [ ] Add docstrings
+- [ ] Init / generate doc on readthedocs
+- [ ] I18n
+- [ ] Add on anaconda channel
+- [ ] Add on macports ?
 
