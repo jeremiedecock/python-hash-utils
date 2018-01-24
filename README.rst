@@ -8,7 +8,7 @@ Copyright (c) 2018 Jérémie DECOCK (www.jdhp.org)
 * Online documentation: http://hashutils.readthedocs.org
 * Source code: https://github.com/jeremiedecock/python-hash-utils
 * Issue tracker: https://github.com/jeremiedecock/python-hash-utils/issues
-* hashutils on PyPI: https://pypi.python.org/pypi/hashutils
+* hashutils on PyPI: https://pypi.python.org/pypi/pyhashutils
 
 
 Description
@@ -37,9 +37,9 @@ Gnu/Linux
 You can install, upgrade, uninstall hash-utils with these commands (in a
 terminal)::
 
-    pip install --pre hashutils
-    pip install --upgrade hashutils
-    pip uninstall hashutils
+    pip install --pre pyhashutils
+    pip install --upgrade pyhashutils
+    pip uninstall pyhashutils
 
 Or, if you have downloaded the hash-utils source code::
 
@@ -61,9 +61,9 @@ Windows
 You can install, upgrade, uninstall hash-utils with these commands (in a
 `command prompt`_)::
 
-    py -m pip install --pre hashutils
-    py -m pip install --upgrade hashutils
-    py -m pip uninstall hashutils
+    py -m pip install --pre pyhashutils
+    py -m pip install --upgrade pyhashutils
+    py -m pip uninstall pyhashutils
 
 Or, if you have downloaded the hash-utils source code::
 
@@ -81,9 +81,9 @@ MacOSX
 You can install, upgrade, uninstall hash-utils with these commands (in a
 terminal)::
 
-    pip install --pre hashutils
-    pip install --upgrade hashutils
-    pip uninstall hashutils
+    pip install --pre pyhashutils
+    pip install --upgrade pyhashutils
+    pip uninstall pyhashutils
 
 Or, if you have downloaded the hash-utils source code::
 

@@ -49,7 +49,7 @@ from hashutils import __version__ as VERSION
 AUTHOR_NAME = 'Jérémie DECOCK'
 AUTHOR_EMAIL = 'jd.jdhp@gmail.com'
 
-PYTHON_PACKAGE_NAME = 'hashutils'
+PYTHON_PACKAGE_NAME = 'pyhashutils'
 PROJECT_SHORT_DESC = 'Print or check MD5 and SHA checksums'
 PROJECT_WEB_SITE_URL = 'http://www.jdhp.org/software_en.html#hashutils'
 
@@ -87,13 +87,15 @@ SCRIPTS = []
 # Entry point can be used to create plugins or to automatically generate
 # system commands to call specific functions.
 # Syntax: "name_of_the_command_to_make = package.module:function".
-# E.g.:
-#   ENTRY_POINTS = {
-#     'console_scripts': [
-#         'pyax12gui = pyax12.gui:run',
-#     ],
-#   }
-ENTRY_POINTS = {}
+ENTRY_POINTS = {
+  'console_scripts': [
+      'md5sum = hashutil.core:md5',
+      'shasum = hashutil.core:sha1',
+      'sha1sum = hashutil.core:sha1',
+      'sha256sum = hashutil.core:sha256',
+      'sha512sum = hashutil.core:sha512',
+  ],
+}
 
 
 README_FILE = 'README.rst'
